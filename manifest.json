@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Lock Title",
+  "version": "1.0.0",
+
+  "description": "Lock tab title to a given text. 'Folder Green Locked Icon' is distributed under CC BY-NC-ND 3.0 http://www.softicons.com/system-icons/refresh-cl-icons-by-tpdk/folder-green-locked-icon",
+  "icons": {
+    "128": "folder_green_locked.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+	"http://*/",
+	"https://*/"
+  ],
+  "commands": {
+  }
+}
